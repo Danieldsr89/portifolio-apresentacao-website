@@ -8,6 +8,6 @@ O controle das tarefas desse projeto será realizado no GitHub
 ## Icones
 
 :package: Nova funcionalidade
-:up_arrow: Atualizalção
+:up_arrow: Atualização
 :lady_beetle: Correção de bug
 :chequered_flag: release
