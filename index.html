@@ -10,19 +10,47 @@
 <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
+
+        <div class="hamburguer">  <!--Div do Icone Hamburger-->
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
         <header>
-            <div class="img-wrapper">
-                <img src="imagens/Bg2.jpg" alt=""> 
+            <div class="img-wrapper"> <!--Div da imagem da página principal-->
+                <img src="imagens/Bg7.jpg" alt=""> 
             </div>
-            <div class="banner">
+            <div class="banner"> <!--Div do Banner da tela principal-->
                 <h1>Desenvolvedor Front-End</h1>
                 <p>Daniel dos Santos Rodrigues</p>
                 <button>Saiba mais</button>
             </div>
         </header>
+
+        <div class="aside"> <!--Div do menu lateral da tela principal-->
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>                    
+                </ul>
+            </nav>
+
+            <div class="social-media"> <!--Div dos links para redes sociais- icones - tela principal-->
+                <a href="https://www.facebook.com/daniel.dos.sr"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/Danieldsr89"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/daniel-dos-santos-rodrigues-1b558379/"><i class="fab fa-linkedin"></i></a>
+            </div>            
+        </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
+
