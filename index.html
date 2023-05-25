@@ -10,7 +10,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="Imagens/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="Imagens/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 <body>
     <div class="container">
@@ -18,28 +18,36 @@
         <div class="hamburguer">  <!--Div do Icone Hamburger-->
             <div class="line" id="line1"></div>
             <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <span>Fechar</span>
+            <div class="line" id="line3"></div>  
+            <span>Fechar</span>                       
         </div>
 
         <header>
             <div class="img-wrapper"> <!--Div da imagem da página principal-->
-                <img src="imagens/Bg7.jpg" alt=""> 
+                <img src="imagens/Bg7.jpg" alt="">                
             </div>
+
             <div class="banner"> <!--Div do Banner da tela principal-->
-                <h1>Desenvolvedor Front-End</h1>
-                <p>Daniel dos Santos Rodrigues</p>
-                <button>Saiba mais</button>
-            </div>
+                <h1>Daniel dos Santos Rodrigues</h1>
+                <p>Desenvolvedor Front-End</p>    
+                <p id="resumo">Bem vindo ao meu Portfólio, eu sou o Daniel,
+                <br> e trabalho com desenvonvimento de software</p>             
+                <a href="#1"><button class="banner-button">Saiba mais</button></a>
+                <div id="foto-perfil" class="img-foto-perfil">
+                    <img src="Imagens/ft-bgd-2t.png" alt="">           
+                </div>   
+                                                         
+            </div>            
         </header>
 
         <div class="aside"> <!--Div do menu lateral da tela principal-->
             <nav>
                 <ul class="menu">
                     <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Projetos</a></li>
-                    <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>                    
+                    <li class="menu-item"><a href="#1" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#2" class="menu-link">Projetos</a></li>
+                    <li class="menu-item"><a href="#3" class="menu-link">Contato</a></li>
+                    <li class="menu-item"><a href="#4" class="menu-link">Sobre</a></li>                                      
                 </ul>
             </nav>
 
@@ -49,8 +57,167 @@
                 <a href="https://www.linkedin.com/in/daniel-dos-santos-rodrigues-1b558379/"><i class="fab fa-linkedin"></i></a>
             </div>            
         </div>
+
+        <section id="1" class="sessao-conhecimentos">
+            <div class="sessao-header">
+                <h1>Conhecimentos</h1>
+            </div>
+            <div class="conhecimentos">
+                <div class="conhecimento">            
+                <div class="conhecimento-header">
+                      <i class="fab fa-html5"></i>
+                      <h3>HTML</h3>
+                </div>
+                    <div class="conhecimento-text">
+                        <p>É código de marcação de texto, que é utilizado na criação de páginas web.
+                            Tenho um ano e seis meses de expêriencia com essa tecnologia.
+                        </p>
+                    </div>
+                </div>
+                <div class ="conhecimento">
+                    <div class= "conhecimento-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>É uma liguagem de marcação, utilizada na formatação de textos,
+                            no layout das páginas web, e no desenvonvimento das cores.
+                            CSS, cuida do estilo das páginas web.
+                            Tenho um ano e seis meses de exepêriencia com essa tecnologia.</p>
+                    </div>
+                </div>
+                <div class ="conhecimento">
+                    <div class= "conhecimento-header">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Design</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>Figma é uma plataforma utilizada na construção do design de interfaces, das páginas web.
+                            Tenho seis meses de exepêriencia com essa tecnologia.</p>
+                    </div>
+                </div>
+                <div class ="conhecimento">
+                    <div class= "conhecimento-header">
+                        <i class="fab fa-js"></i>
+                        <h3>Javascript</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>É uma liguagem de programação utilizada no desenvonvimento de páginas Web. Javascript 
+                            é mais aplicada na parte visual dos sites, essa linguagem é responsável pelas animações 
+                            das páginas web.
+                            Tenho um ano e seis meses de exepêriencia com essa tecnologia.</p>
+                    </div>
+                </div>
+                <div class ="conhecimento">
+                    <div class= "conhecimento-header">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                    </div>
+                    <div class="conhecimento-text">
+                        <p>É uma plataforma de hospedagem de projetos, códigos-fonte e arquivos. GitHub é a rede social, de hospedagem 
+                           de projetos. Tenho seis meses de exepêriencia com essa tecnologia.</p>
+                    </div>
+                </div>                
+                <div class="img-section">
+                    <img src="Imagens/Bg3.jpg" alt="imagem conhecimento" >
+                </div>
+            </div>
+        </section>
+
+        <section id="2" class="sessao-projetos">
+            <div class="sessao-header">
+                <h1>Projetos</h1>
+            </div>       
+
+            <div class="projetos">
+                <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="Imagens/imgprojeto1.jpg" alt="imagem-projeto1">
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>Javascript</h3>
+                        <p>É uma liguagem de marcação, utilizada na formatação de textos,
+                            no layout das páginas web, e no desenvonvimento das cores.
+                            CSS, cuida do estilo das páginas web.
+                            Tenho um ano e seis meses de exepêriencia com essa tecnologia.</p>
+                        <a href="#"><button class="btn">Saiba mais</button></a>
+                    </div>
+                    </div>
+
+                    <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="Imagens/imgprojeto2.jpg" alt="imagem-projeto2">
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>Javascript</h3>
+                        <p>Em construção...</p>
+                        <a href="#"><button class="btn">Saiba mais</button></a>
+                    </div>
+                    </div>
+
+                    <div class="card">
+                    <div class="card-img-wrapper">
+                        <img src="Imagens/imgprojeto3.jpg" alt="imagem-projeto3">
+                    </div>
+                    <div class="card-info">
+                        <h2>Maratona</h2>
+                        <h3>Javascript</h3>
+                        <p>Em construção</p>     
+                        <a href="#"><button class="btn">Saiba mais</button></a>                   
+                    </div>                    
+                    </div>
+            </div>     
+        </section>
+
+        <section id="3" class="sessao-contato">            
+            <div class="contato-wrapper">
+                <div class="contato-left"></div>            
+                <div class="contato-right">
+                    <h1>Contato</h1>
+
+                    <form>
+                        <div class="input-group">
+                        <input type="text" class="field" id="nome" autocomplete="off">
+                        <label for="nome" class="field-label">Nome</label>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" class="field" id="email" autocomplete="off">
+                            <label for="email" class="field-label">E-mail</label>
+                        </div>
+
+                        <div class="input-group">
+                            <textarea  class="field" id="mensagem"></textarea>
+                                <label for="mensagem" class="field-label">Mensagem</label>
+                         </div>
+                         <button type="submit" class="btn btn-contato">Enviar</button>
+                    </form>                    
+                </div>     
+            </div>
+        </section> 
+        <footer id="4">
+            <div class="footer-container">
+                <p>
+                    Copyright &COPY; 2023, DANIEL RODRIGUES - Todos os direitos reservados
+                </p>
+                <div class="social-list">
+                   <ul>
+                    <li><a href="https://www.facebook.com/daniel.dos.sr"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="https://github.com/Danieldsr89"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/daniel-dos-santos-rodrigues-1b558379/"><i class="fab fa-linkedin"></i></a></li>
+                   </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="link-topo">
+        <a href="#" id="link-topo">
+            <i class="fas fa-arrow-up">Inicio</i>
+        </a>
+        </div>
     </div>
 </body>
-<script src="script.js"></script>
+    <script src="script.js"></script>   
 </html>
 
