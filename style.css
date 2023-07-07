@@ -134,7 +134,7 @@ header{
 
 .banner h1{
     color: #ffffff;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-family: var(--font-primary);
     font-weight: 200; /*controla o peso da fonte (quantidade de negrito na fonte) */
     text-shadow: .3rem .4rem 2px rgba(0,0,0,0.4); /*controla a quantidade de sombra do Obejeto*/
@@ -146,7 +146,7 @@ header{
 .banner p{
     font-family: var(--font-primary);
     color: #ffffff;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-shadow: .2rem .2rem rgba(0,0,0,0.4);
     margin-bottom: 0.8rem;
     opacity:0;
@@ -201,7 +201,7 @@ header{
 
 .aside{
     width: 20rem;
-    height: 100vh;
+    height: 98vh;
     background-color:#5552;
     position: fixed;
     top: 0;
@@ -621,3 +621,106 @@ font-family: var(--font-action);
     z-index: 170;    
 }
 
+@media (max-width: 950px) {
+
+    .banner h1{
+        font-size:1.5rem;
+    }
+
+    .banner p{
+        font-size:1.2rem;
+    }
+
+    .banner #resumo{
+        font-size: 0.9rem;
+    }
+
+    .banner button{
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        padding-left: 1.2rem;
+        padding-right: 1.2rem;
+    }
+
+    .aside{
+        width: 15rem;
+        height: 85vh;
+       }    
+
+       .conhecimento-text p{
+        font-size: 0.5rem;
+   }
+
+   .sessao-conhecimentos{
+    display:flow-root;
+   }
+
+   .projetos{
+    flex-direction: column;    
+    padding: 2rem;      
+   }  
+   .card{
+    width: 9rem;
+    height: 12.5rem;
+   }
+
+   .card-info h2{
+    font-size: 1rem;    
+   }
+    .sessao-header h1{
+         font-size: 1rem;
+    }   
+
+   .social-media{
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+   }
+
+   .menu-link{
+    font-size: 1.6rem;
+   }
+   
+   .contato-right{
+    width: 30%;
+    height: 45%;
+   }
+   
+   .contato-wrapper{
+    width: 40%;
+    height: 14rem;
+   }
+
+   .sessao-contato h1{
+    font-size: 1rem;
+   }
+
+   .field-label {
+    font-size: 0.6rem;
+   }
+
+   .field{
+    
+    width: 10rem;
+    font-size: 0.7rem;
+    border-bottom: 0.5px dashed #636363;
+    height: 0.8rem;
+   
+   }
+
+   .conhecimento-header i{
+    font-size: 1rem ;
+   }
+
+   .conhecimento-header h3{
+    font-size: 0.95rem ;
+   }
+
+   .footer-container p{   
+    font-size: 0.8rem;
+}
+
+.social-list a{   
+    font-size: 0.8rem;    
+}
+
+}
