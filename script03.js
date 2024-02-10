@@ -15,19 +15,19 @@ function verificar() {
             gênero='Homem'
             if(idade >= 0 && idade <10) {
                 // criança 
-                img.setAttribute('src', 'bebeMenino.png')
+                img.setAttribute('src', '/portifolio-apresentacao-website/imagens-exe03/bebeMenino.png')
                 res.innerHTML=`Criança do gênero ${gênero} com idade de ${idade}`
             }else if(idade < 21) {
                 //jovem
-                img.setAttribute('src','homemjovem.png')
+                img.setAttribute('src','/portifolio-apresentacao-website/imagens-exe03/homemjovem.png')
                 res.innerHTML=`Jovem do gênero ${gênero} com idade de ${idade}`
             }else if(idade <50){  
-                img.setAttribute('src', 'homem.png')
+                img.setAttribute('src', '/portifolio-apresentacao-website/imagens-exe03/homem.png')
                 res.innerHTML=`foi detectado um ${gênero} com idade de ${idade}`  
 
             }else {
                 //idoso
-                img.setAttribute('src', 'homemIdoso.png')
+                img.setAttribute('src', '/portifolio-apresentacao-website/imagens-exe03/homemIdoso.png')
                 res.innerHTML=`Idoso do gênero ${gênero} com idade de ${idade}`
             }
 
@@ -35,19 +35,19 @@ function verificar() {
         gênero='Mulher'
         if(idade >= 0 && idade < 10) {
             // criança
-            img.setAttribute('src', 'bebeMenina.png')
+            img.setAttribute('src', '/portifolio-apresentacao-website/imagens-exe03/bebeMenina.png')
             res.innerHTML=`Criança do gênero ${gênero} com idade de ${idade}`
         }else if(idade <21) {
             //jovem
-            img.setAttribute('src', 'mulherjovem.png')
+            img.setAttribute('src', '/portifolio-apresentacao-website/imagens-exe03/mulherjovem.png')
             res.innerHTML=`Jovem do gênero ${gênero} com idade de ${idade}`
         }else if(idade <50) {
             //adulto
-            img.setAttribute('src', 'Mulher.png')
+            img.setAttribute('src', '/portifolio-apresentacao-website/imagens-exe03/Mulher.png')
             res.innerHTML=`foi detectado uma ${gênero} com idade de ${idade}`
         }else {
             //idoso
-            img.setAttribute('src', 'mulherIdosa.png')
+            img.setAttribute('src', '/portifolio-apresentacao-website/imagens-exe03/mulherIdosa.png')
             res.innerHTML=`Idosa do gênero ${gênero} com idade de ${idade}`
         }
 
